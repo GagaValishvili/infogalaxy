@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64640855055",
+    "project_id": "info-galaxy",
+    "storage_bucket": "info-galaxy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64640855055:android:604bf19d7da773cd70c77a",
+        "android_client_info": {
+          "package_name": "com.example.davaleba4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64640855055-2qs9nsit7nak1afaqtkc875tno4jfeu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdiRzWUcWc1ra4jZJ3ZiN_AwFUIPAQFlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64640855055-2qs9nsit7nak1afaqtkc875tno4jfeu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
