@@ -30,6 +30,10 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         myAuth2 = FirebaseAuth.getInstance();
 
         name = findViewById(R.id.name);
@@ -61,9 +65,7 @@ public class Register extends AppCompatActivity {
         String edit_email = editEmail1.getText().toString();
         String edit_password = editPassword1.getText().toString();
 
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
-        }
+
         if(TextUtils.isEmpty(nameField)) {
             Toast.makeText(Register.this, "გთხოვთ შეავსოთ ყველა ველი",Toast.LENGTH_SHORT).show();
             return;

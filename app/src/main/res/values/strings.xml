@@ -1,17 +1,19 @@
 <resources>
-    <string name="app_name">davaleba 4</string>
-    <string name="info_galaxy">Info Galaxy</string>
-    <string name="name">სახელი</string>
-    <string name="surname">გვარი</string>
-    <string name="email">იმეილი</string>
-    <string name="password">პაროლი</string>
-    <string name="register">რეგისტრაცია</string>
-    <string name="login">ავტორიზაცია</string>
-    <string name="go_back">უკან დაბრუნება</string>
-    <string name="newAcc">დარეგისტრირდი</string>
+    <string name="app_name" translatable="false">davaleba 4</string>
+    <string name="info_galaxy" translatable="false">Info Galaxy</string>
+    <string name="name" translatable="false">სახელი</string>
+    <string name="surname" translatable="false">გვარი</string>
+    <string name="email" translatable="false">იმეილი</string>
+    <string name="password" translatable="false">პაროლი</string>
+    <string name="register" translatable="false">რეგისტრაცია</string>
+    <string name="login" translatable="false">ავტორიზაცია</string>
+    <string name="go_back" translatable="false">უკან დაბრუნება</string>
+    <string name="newAcc" translatable="false">დარეგისტრირდი</string>
     <string name="question">ახალი ხარ?</string>
     <string name="warningMessage">გთხოვთ შეავსოთ ყველა ველი</string>
     <string name="todo">TODO</string>
     <string name="zodiac_name">Name</string>
     <string name="log_out">გასვლა</string>
+    <string name="close">დახურვა</string>
+    <string name="text">text</string>
 </resources>

@@ -7,36 +7,87 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageButton
-        android:id="@+id/down_arrow"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:onClick="setDownArrow"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="361dp"
-        android:layout_marginBottom="681dp"
-        android:background="@drawable/downarrow"
-        android:contentDescription="@string/todo" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="67dp"
+        android:layout_marginStart="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/info_galaxy"
+        android:textColor="#FFFF8D"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
 
     <ListView
         android:id="@+id/myZodiacList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginBottom="120dp"/>
+        android:layout_height="522dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginBottom="0dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/aboutZodiacText"
+        android:layout_width="340dp"
+        android:layout_height="426dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/txt_shape"
+        android:paddingStart="30dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/close"
+        android:textSize="13.3sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/yellowcross"
+        android:contentDescription="@string/todo"
+        android:onClick="closeTextView"
+        android:visibility="invisible"
+        />
+
+
+    <ImageButton
+        android:id="@+id/down_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/downarrow"
+        android:contentDescription="@string/todo" />
 
     <android.widget.Button
         android:id="@+id/logout"
-        android:layout_width="98dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginStart="22dp"
         android:layout_marginTop="35dp"
+        android:layout_marginBottom="755dp"
         android:background="@drawable/round_shape"
+        android:onClick="logOut"
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
         android:text="@string/log_out"
-        android:visibility="invisible"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
